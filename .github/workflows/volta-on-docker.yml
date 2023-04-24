@@ -3,6 +3,9 @@ name: Volta on docker
 on:
   workflow_dispatch:
 
+env:
+  VOLTA_FEATURE_PNPM: 1
+
 jobs:
   tests:
     defaults:

@@ -3,6 +3,9 @@ name: Volta
 on:
   workflow_dispatch:
 
+env:
+  VOLTA_FEATURE_PNPM: 1
+
 jobs:
   tests:
     runs-on: ubuntu-22.04
