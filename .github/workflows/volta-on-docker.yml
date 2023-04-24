@@ -12,7 +12,7 @@ jobs:
       run:
         shell: bash
     container:
-      image: debian:bullseye-slim
+      image: ubuntu:22.04
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
